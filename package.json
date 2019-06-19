@@ -39,19 +39,23 @@
     },
     "win": {
       "icon": "icons/icon.ico",
-      "target": [{
-        "target": "portable",
-        "arch": [
-          "x64",
-          "ia32"
-        ]
-      }]
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
     },
     "linux": {
       "icon": "icons",
-      "target": [{
-        "target": "AppImage"
-      }],
+      "target": [
+        {
+          "target": "AppImage"
+        }
+      ],
       "category": "Game"
     }
   },
@@ -92,6 +96,7 @@
     "electron-webpack-vue": "^2.2.3",
     "eslint-plugin-html": "^5.0.3",
     "jest": "^24.8.0",
+    "jest-mock-random": "^1.0.2",
     "prettier": "^1.18.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.5",
