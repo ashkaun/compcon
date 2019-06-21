@@ -63,7 +63,10 @@ import {
   LicenseRequirement,
 } from './features/_shared/classes/Types'
 import Statblock from './features/pilot_management/classes/Statblock'
-import DiceRoller from './features/_shared/classes/DiceRoller'
+import { 
+  DiceRoller,
+  SkillRollResult
+} from './features/_shared/classes/DiceRoller'
 
 export {
   MountType,
@@ -119,4 +122,5 @@ export {
   LicenseRequirement,
   Statblock,
   DiceRoller,
+  SkillRollResult,
 }
